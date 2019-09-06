@@ -14,6 +14,6 @@ public abstract class Coins
         numAdded = 1;
     }
 
-    public abstract int getNumAdded();
+    public abstract String getNumAdded();
     public abstract double getTotal();
 }
