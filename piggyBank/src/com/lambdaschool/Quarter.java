@@ -2,6 +2,16 @@ package com.lambdaschool;
 
 public class Quarter extends Coins
 {
+    public Quarter(int numAdded)
+    {
+        super(numAdded);
+    }
+
+    public Quarter()
+    {
+        super();
+    }
+
     @Override
     public String getNumAdded()
     {

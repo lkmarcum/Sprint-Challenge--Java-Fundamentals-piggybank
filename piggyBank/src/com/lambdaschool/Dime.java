@@ -2,6 +2,16 @@ package com.lambdaschool;
 
 public class Dime extends Coins
 {
+    public Dime(int numAdded)
+    {
+        super(numAdded);
+    }
+
+    public Dime()
+    {
+        super();
+    }
+
     @Override
     public String getNumAdded()
     {

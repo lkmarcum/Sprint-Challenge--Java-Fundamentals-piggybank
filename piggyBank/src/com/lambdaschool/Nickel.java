@@ -2,6 +2,16 @@ package com.lambdaschool;
 
 public class Nickel extends Coins
 {
+    public Nickel(int numAdded)
+    {
+        super(numAdded);
+    }
+
+    public Nickel()
+    {
+        super();
+    }
+
     @Override
     public String getNumAdded()
     {

@@ -2,6 +2,16 @@ package com.lambdaschool;
 
 public class Penny extends Coins
 {
+    public Penny(int numAdded)
+    {
+        super(numAdded);
+    }
+
+    public Penny()
+    {
+        super();
+    }
+
     @Override
     public String getNumAdded()
     {

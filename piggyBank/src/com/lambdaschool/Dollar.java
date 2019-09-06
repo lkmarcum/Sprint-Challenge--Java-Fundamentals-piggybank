@@ -2,6 +2,16 @@ package com.lambdaschool;
 
 public class Dollar extends Coins
 {
+    public Dollar(int numAdded)
+    {
+        super(numAdded);
+    }
+
+    public Dollar()
+    {
+        super();
+    }
+
     @Override
     public String getNumAdded()
     {
